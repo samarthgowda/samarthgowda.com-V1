@@ -84,7 +84,7 @@ html, body {
 
 body {
     background: #0a0809;
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     font-size: 1.6rem;
     line-height: 1.875;
     color: #5f5f5f;
@@ -221,11 +221,11 @@ em, i, strong, b {
 }
 
 em, i {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
 }
 
 strong, b {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
 }
 
 small {
@@ -277,7 +277,7 @@ blockquote cite a, blockquote cite a:visited {
 }
 
 abbr {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
@@ -442,7 +442,7 @@ table {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
 }
 
 th, td {
@@ -1276,7 +1276,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     font-size: 4.8rem;
     line-height: 1.375;
     margin-top: 0;
@@ -1820,7 +1820,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     color: #FFFFFF;
     font-size: 6rem;
     line-height: 1.35;
@@ -1829,7 +1829,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h2 {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     color: #FFFFFF;
     font-size: 2.5rem;
     line-height: 1.2;
@@ -2517,7 +2517,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a::after {
     content: "...";
-    font-family: georgia, serif;
+    font-family: georgia;
     font-size: 3rem;
     display: block;
     height: 30px;
@@ -2728,7 +2728,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .testimonials-header h1 {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     font-size: 4.2rem;
     margin-top: 0;
     color: #FFFFFF;
@@ -3014,7 +3014,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     font-size: 7.2rem;
     line-height: 1;
     color: #0D0A0B;
@@ -3959,7 +3959,7 @@ article.blog-single .blog-content {
 .page-header__title {
     color: #FFFFFF;
     position: relative;
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     font-size: 6.6rem;
     line-height: 1.227;
     margin-top: 0;
