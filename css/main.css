@@ -3293,7 +3293,7 @@ Card
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
   .port-card {
       height: 275px;
@@ -3301,6 +3301,33 @@ Card
   .port-card img {
       height: 275px;
   }
+}
+
+@media screen and (max-width: 450px) {
+
+  .port-card .col-four {
+      display: none;
+  }
+  .port-card .col-eight {
+      width: 100%;
+      padding: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .port-card p {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .port-card h1 {
+        font-size: 1.5rem;
+    }
+
+    .port-card h3 {
+        font-size: 1rem;
+    }
 }
 
 
