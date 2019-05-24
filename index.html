@@ -37,6 +37,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </head>
 
@@ -398,7 +403,7 @@
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="inc/sendEmail.php">
+                <form name="contactForm" id="contactForm" method="POST" action="/inc/sendEmail.php">
                     <fieldset>
 
                     <div class="form-field">
@@ -411,10 +416,10 @@
                         <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
                     </div>
                     <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Enter your message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
+                        <button type="submit" class="full-width btn--primary">Submit</button>
                         <div class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
@@ -472,8 +477,11 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright</span>
-                    <span>Samarth Gowda 2019<a style="color: #fff;" href="https://www.styleshout.com/">License</a></span>
+                    <span>© Copyright <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                      </script>
+                      </span>
+                    <span>Samarth Gowda<a style="color: #fff;" href="https://www.styleshout.com/">License</a></span>
                 </div>
 
                 <div class="go-top">
@@ -529,12 +537,6 @@
         <div id="loader"></div>
     </div>
 
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
 
 </body>
 
