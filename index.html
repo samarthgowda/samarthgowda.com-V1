@@ -86,7 +86,7 @@
                     I am Samarth Gowda. <br>
                 </h1>
 
-                <h2>Student at Carnegie Mellon University<i class=""></i></h2>
+                <h2 class="font-weight-light">Student at Carnegie Mellon University</h2>
 
                 <div class="home-content__buttons">
                     <a href="#projects" class="smoothscroll btn btn--stroke">
@@ -401,50 +401,9 @@
             </div>
         </div>
 
-        <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="POST" action="/inc/sendEmail.php">
-                    <fieldset>
-
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Enter your message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button type="submit" class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div>
-
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-
-            </div>
-            <div class="col-four tab-full contact__infos">
+        <div class="row contact__main align-center">
+        
+            <div class="col tab-full contact__infos">
                 <h4 class="h06">Phone</h4>
                 <p>Phone: (267) 374 5077<br>
                 </p>
@@ -453,7 +412,7 @@
                 <p>sgowda@andrew.cmu.edu<br>
                 samarthgowda@outlook.com
                 </p>
-
+                <a href="mailto:sgowda@andrew.cmu.edu" class="btn btn--primary">Contact</a>
             </div>
 
         </div>
